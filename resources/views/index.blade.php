@@ -18,7 +18,9 @@
                 </div>
                 @endforeach
             </div>
+            <div class="mb-10 center">
+                {{$posts->links()}}
+            </div>
         </div>
-       {{$posts->links()}}
     </body>
 </html>
